@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: #e6e6e6;
+    color: #333;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.features .feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features .feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Advantages Section Styles */
+.advantages {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.advantages .advantage {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.advantages .advantage img {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Servers Section Styles */
+.servers {
+    padding: 40px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.servers .world-map {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
